@@ -5,9 +5,14 @@ class About extends Component {
     render () {
         return (
             <div className='about'>
-                <p>Brian Robert Cajulis is a web/mobile app developer who has worked on various projects relating to school, work, and personal.
-                He graduated from Azusa Pacific University with a BA in Computer Science. During his college career, he had the opportunity travel to Namibia, South Africa to assist in laying the foundations to establish a health informatics program.
+                <p>
+                Brian Robert Cajulis is a web/mobile developer who specializes in front end development, but he also has experience in back end development.
+                Brian focuses on creating applications that function well according to their specifications and have a fully responsive interface that looks consistent on a wide range of devices.
+                He began pursuing a career in software development while attending <a onClick={() => window.open("https://www.apu.edu/", '_blank')} style={{textDecoration: 'underline'}}>Azusa Pacific University</a>, and he graduated with BS in Computer Science on May 2018. During his college career, he was part of the first computer science action team from his university which traveled to Namibia, South Africa.
+                Whilst there, he assisted students and professors from <a onClick={() => window.open('http://www.nust.na/', '_blank')} style={{textDecoration: 'underline'}}>Namibia University of Science and Technology</a> to create a health informatics system for public and private hospitals.
+                His experiences in Namibia concreted his passion for software development where then after he dedicated time between classes to challenge and to better his understanding of web and mobile development.
                 </p>
+                <p>Brian is currently searching for job opportunities as a front end developer for web and/or mobile applications. Email me at <a href="mailto:brianrobertcajulis@yahoo.com" target="_top"> brianrobertcajulis@yahoo.com</a> to connect.</p>
             </div>
         );
     }

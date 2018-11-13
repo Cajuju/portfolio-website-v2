@@ -1,0 +1,15 @@
+.projects {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+@media (min-width: 499px) {
+    .projects {
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+}

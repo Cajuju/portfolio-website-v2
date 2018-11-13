@@ -1,0 +1,62 @@
+.card {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: 0;
+
+    .card-img-top {
+        width: 100%;
+    }
+
+    .card-img-overlay {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgba(0,0,0,0.5);
+        // transition: .5s ease;
+    }
+
+    .card-title {
+        font-size: 10vw;
+    }
+    
+    .card-text {
+        font-size: 4vw;
+    }
+
+    .btn-primary {
+        width: 30vw;
+        height: 10vw;
+        border-radius: 10px;
+        opacity: 1;
+        border-color: white;
+        background-color: rgba(246, 246, 246, 0.267)
+    }
+
+    .btn-primary:hover{
+        background-color: rgba(246, 246, 246, 0.486);
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 499px) {
+    .card {
+        width: 50%;
+
+        .card-title {
+            font-size: 4.5vw;
+        }
+
+        .card-text {
+            font-size: 2vw;
+        }
+
+        .btn-primary {
+           font-size: 1.5vw;
+           width: 15vw;
+           height: 5vw;
+        }
+    }
+}

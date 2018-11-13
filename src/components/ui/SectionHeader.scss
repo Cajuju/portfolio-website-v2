@@ -5,11 +5,15 @@
         color: white;
         padding: 10px;
         font-family: 'Andika', sans-serif;
+        font-size: 6.5vw;
+        margin: 0;
     }
 }
 
 @media (min-width: 499px) {
-    .h1 {
-        font-size: 5vw;
+    .header {
+        h1 {
+            font-size: 3.5vw;
+        }
     }
 }
