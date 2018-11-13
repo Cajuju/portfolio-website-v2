@@ -1,15 +1,30 @@
 .about {
     background: 
         linear-gradient(
-        rgba(0, 19, 18, 0.76), 
-        rgba(0, 95, 90, 0.712), 
+        rgba(0, 19, 18, 0.897), 
+        rgba(0, 95, 90, 0.89), 
         ),
         url('../../assets/about-background.jpg');
     background-size: cover;
     p {
-        font-size: 2.5vw;
-        padding: 20px 45px;
+        font-size: 4vw;
+        padding: 20px;
         margin: 0;
         color: white;
+        text-align: center;
+        a {
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+
+@media(min-width: 499px) {
+    .about {
+        p {
+            font-size: 2vw;
+            padding: 20px 40px;
+        }
     }
 }
