@@ -5,7 +5,6 @@ import AnimatedGradientBG from '../../components/ui/animatedGradient/AnimatedGra
 
 class Intro extends Component {
     onIconClickHandler = (type) => {
-        console.log(type)
         if (type === 'github') {
             window.open('https://github.com/Cajuju', '_blank');
         } else if (type === 'linkedin') {
