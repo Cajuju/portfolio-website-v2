@@ -1,0 +1,73 @@
+/* Text Style */
+.text {
+    text-align: center;
+    h1 {
+        font-size: 7vw;
+        font-family: 'Andika', sans-serif;
+    }
+    h1:nth-child(2) {
+        font-size: 6vw;
+    }
+}
+
+/* Image Style */
+.image {
+    width: 60vw;
+}
+
+/* Button Style */
+.btnContainer {
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 7vh;
+    height: 7vh;
+    font-size: 3vh;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #ecf0f1;
+    transition: font-size .5s;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: #bdc3c7;
+}
+
+/* Desktop Style */
+@media (min-width: 499px) {
+    .text h1 {
+        font-size: 4vw;
+    }
+
+    .text h1:nth-child(2) {
+        font-size: 3vw;
+    }
+
+    .image {
+        width: 30vw;
+    }
+
+    .btnContainer {
+        width: 30vw;
+    }
+
+    .btn {
+        width: 5vh;
+        height: 5vh;
+        font-size: 2.5vh;
+    }
+}
+
+@media (min-width: 499px) and (orientation: landscape) {
+    .btn {
+        width: 5vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
+}
