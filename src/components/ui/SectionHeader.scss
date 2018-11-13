@@ -1,0 +1,15 @@
+.header {
+    background-color: #34495e;
+    padding: 10px;
+    h1 {
+        color: white;
+        padding: 10px;
+        font-family: 'Andika', sans-serif;
+    }
+}
+
+@media (min-width: 499px) {
+    .h1 {
+        font-size: 5vw;
+    }
+}
