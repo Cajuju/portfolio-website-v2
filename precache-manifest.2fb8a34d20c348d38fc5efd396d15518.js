@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/redux.59c46753.png"
   },
   {
-    "revision": "bb069171c442d280e36b",
-    "url": "/portfolio-website-v2/static/css/main.497a9c61.chunk.css"
+    "revision": "0b754c4beefab8759984",
+    "url": "/portfolio-website-v2/static/css/main.3cd6e4c4.chunk.css"
   },
   {
-    "revision": "339367fd919a1bea7681",
-    "url": "/portfolio-website-v2/static/js/1.339367fd.chunk.js"
+    "revision": "bba6686449f2cb056a70",
+    "url": "/portfolio-website-v2/static/js/1.bba66864.chunk.js"
   },
   {
     "revision": "47b92716dc7aea6122ae",
@@ -18,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "4c04220bb2f79e87c9d63cde90a4c5e3",
     "url": "/portfolio-website-v2/static/media/profile.4c04220b.png"
+  },
+  {
+    "revision": "3fe8ba9ae2681b28163917e5c29a8e93",
+    "url": "/portfolio-website-v2/static/media/resume-brian-cajulis.3fe8ba9a.pdf"
   },
   {
     "revision": "cb17601da9c698d9399c13ccf16d259d",
@@ -40,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/react-native.61346419.png"
   },
   {
-    "revision": "bb069171c442d280e36b",
-    "url": "/portfolio-website-v2/static/js/main.bb069171.chunk.js"
+    "revision": "0b754c4beefab8759984",
+    "url": "/portfolio-website-v2/static/js/main.0b754c4b.chunk.js"
   },
   {
     "revision": "7bde69fde9003c19927781feb2a3a74f",
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/about-background.ba5a41fc.jpg"
   },
   {
-    "revision": "b5113b2dfb4096f74969d19592cf4b03",
+    "revision": "9d1de6e14b142f407dad7f2d3c3e0b6d",
     "url": "/portfolio-website-v2/index.html"
   }
 ];
