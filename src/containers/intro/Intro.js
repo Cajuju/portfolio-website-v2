@@ -6,7 +6,7 @@ import AnimatedGradientBG from '../../components/ui/animatedGradient/AnimatedGra
 class Intro extends Component {
     onIconClickHandler = (type) => {
         if (type === 'github') {
-            window.open('https://github.com/Cajuju', '_blank');
+            window.open('https://github.com/briancajulis', '_blank');
         } else if (type === 'linkedin') {
             window.open('https://www.linkedin.com/in/brian-robert-cajulis/', '_blank');
         }
