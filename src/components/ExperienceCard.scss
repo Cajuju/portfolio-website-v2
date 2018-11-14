@@ -1,0 +1,77 @@
+.card-experience {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.25rem;
+    width: 80%;
+    margin: 20px 0px;
+    font-family: 'Andika', sans-serif;
+    box-shadow: 2px 4px 5px 3px gray;
+    .card-body {
+        div {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .title-container {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                .logo {
+                    width: auto;
+                    height: auto;
+                    max-width: 250px;
+                    max-height: 20vw;
+                }
+                .card-title {
+                    font-weight: bold;
+                    font-size: 4vw;
+                    margin-left: 10px;
+                }
+            }
+            .card-title {
+                font-size: 4vw;
+            }
+        }
+        .card-subtitle {
+            font-size: 4vw;
+        }
+        .card-text {
+            font-size: 4vw;
+        }
+    }
+}
+
+@media (min-width: 499px) {
+    .card-experience {
+        .card-body {
+            div {
+                display: flex;
+                flex-flow: row;
+                justify-content: space-between;
+                align-items: center;
+                .title-container {
+                    flex-flow: row;
+                    align-items: center;
+                    .logo {
+                        width: auto;
+                        height: auto;
+                        max-width: 250px;
+                        max-height: 7vw;
+                    }
+                    .card-title {
+                        font-weight: bold;
+                        font-size: 1.8vw;
+                    }
+                }
+                .card-title {
+                    font-size: 1.5vw;
+                }
+            }
+            .card-subtitle {
+                font-size: 1.5vw;
+            }
+            .card-text {
+                font-size: 1.5vw;
+            }
+        }
+    }
+}
