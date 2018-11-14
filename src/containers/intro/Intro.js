@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import PROFILE from '../../assets/profile.png'
+import PROFILE from '../../assets/profile.png';
+import RESUME from '../../assets/resume-brian-cajulis.pdf';
 import './Intro.scss';
 import AnimatedGradientBG from '../../components/ui/animatedGradient/AnimatedGradientBG';
 
@@ -9,6 +10,8 @@ class Intro extends Component {
             window.open('https://github.com/briancajulis', '_blank');
         } else if (type === 'linkedin') {
             window.open('https://www.linkedin.com/in/brian-robert-cajulis/', '_blank');
+        } else if (type === 'resume') {
+            window.open(RESUME, '_blank');
         }
     }
 
@@ -27,6 +30,10 @@ class Intro extends Component {
 
                     <button className="btn" onClick={() => this.onIconClickHandler('github')}>
                         <i className="fab fa-github"></i>
+                    </button>
+
+                    <button className="btn" onClick={() => this.onIconClickHandler('resume')}>
+                        <i class="fas fa-file-pdf"></i>
                     </button>
                 </div>
             </AnimatedGradientBG>
