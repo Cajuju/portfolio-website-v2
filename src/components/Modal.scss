@@ -1,0 +1,70 @@
+.modal {
+    font-family: 'Andika', sans-serif;
+}
+
+.modal-header {
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-flow: row-reverse;
+    .img-thumbnail {
+        padding: 0;
+        border: 0;
+    }
+    button {
+        color: white;
+        font-size: 10vw;
+        position: absolute;
+    }
+}
+
+.modal-body {
+    .modal-title {
+        font-weight: bold;
+        font-size: 5.5vw;
+        text-align: center;
+    }
+
+    .badge-container {
+        text-align: center;
+        .badge {
+            font-size: 3vw;
+            margin: 3px;
+        }
+    }
+
+    p {
+        font-size: 3.5vw;
+        padding: 10px;
+    }
+}
+
+@media(min-width: 499px) {
+    .modal-lg {
+        width: 60%;
+    }
+    
+    .modal-header {
+        button {
+            font-size: 6.5vw;
+        }
+    }
+
+    .modal-body {
+        .modal-title {
+            font-size: 3vw;
+        }
+
+        .badge-container {
+            text-align: center;
+            .badge {
+                font-size: 1.5vw;
+            }
+        }
+
+        p {
+            font-size: 2vw;
+            padding: 10px 20px;
+        }
+    }
+}

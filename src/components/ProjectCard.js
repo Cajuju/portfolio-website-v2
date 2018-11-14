@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './ProjectCard.scss';
+import Modal from './Modal';
 
 const projectCard = (props) => {
     let developedWith = null;
@@ -9,6 +10,8 @@ const projectCard = (props) => {
 
     let cardOverlay = null;
 
+    let dataTarget = '#' + props.project.name.replace(/\s/g,'');
+
     if (props.project.isHovering) {
         cardOverlay = (
             <div className="card-img-overlay">
@@ -17,7 +20,7 @@ const projectCard = (props) => {
                     <p className="card-text">{developedWith}</p>
                 </div>
                 <div>
-                    <button type="button" className="btn-primary">Learn More</button>
+                    <button type="button" className="btn-secondary" data-toggle="modal" data-target={dataTarget}>Learn More</button>
                 </div>
             </div>
         );
@@ -33,7 +36,12 @@ const projectCard = (props) => {
             {cardOverlay ? cardOverlay : null}
         </div>
     );
-    return card;
+    return (
+        <Fragment>
+            {card}
+            <Modal project={props.project} />
+        </Fragment>
+    );
 }
 
 export default projectCard;
