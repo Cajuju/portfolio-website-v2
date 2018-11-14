@@ -18,38 +18,44 @@ class App extends Component {
         <Menu
           pageWrapId={'page-wrap'}
           outerContainerId={'outer-container'}
-          right width={200}
+          right width={300}
           customBurgerIcon={<MenuBtn />}
+          
         >
           <div
-            id="about" className="menu-item"
+            id="top" className="menu-item"
             onClick={() => scrollToComponent(this.Intro, { offset: 0, align: 'top', duration: 1000 })}
           >
-            Back To Top
+            <i className="fas fa-angle-double-up"></i>
+            <div>Back To Top</div>
           </div>
           <div
             id="about" className="menu-item"
             onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1000 })}
           >
-            About
+            <i className="fas fa-user-tie"></i>
+            <div>About</div>
           </div>
           <div
             id="project" className="menu-item"
             onClick={() => scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 1000 })}
           >
-            Projects
+            <i className="fas fa-table"></i>
+            <div>Projects</div>
           </div>
           <div
             id="experiences" className="menu-item"
             onClick={() => scrollToComponent(this.Experiences, { offset: 0, align: 'top', duration: 1000 })}
           >
-            Experiences
+            <i className="fas fa-briefcase"></i>
+            <div>Experiences</div>
           </div>
           <div
             id="skills" className="menu-item"
             onClick={() => scrollToComponent(this.Skills, { offset: 0, align: 'top', duration: 1000 })}
           >
-            Skills
+            <i className="fas fa-code"></i>
+            <div>Skills</div>
           </div>
         </Menu>
         <main id='page-wrap'>

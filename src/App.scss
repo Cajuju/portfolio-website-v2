@@ -12,45 +12,40 @@
   background: #373a47;
 }
 
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7;
-}
-
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
+  padding: 10px 5px;
 }
 
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  display: flex;
+  flex-flow: column;
 }
 
 /* Individual item */
 .bm-item {
-  display: inline-block;
+  display: flex !important;
+  outline: white !important;
+  justify-content: space-between;
+  border-width: 2px;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  font-size: 5vw;
+  margin: 15px 0 25px 0;
+  font-weight: bold;
+  .fas {
+    font-size: 7vw;
+  }
 }
 
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.5);
+.bm-item:hover {
+  color: #e74c3c;
 }
-
 
 @media (min-width: 499px) {
   .bm-burger-button {
@@ -58,5 +53,13 @@
     height: 6vw;
     top: 3%;
     left: 90%;
+  }
+
+  /* Individual item */
+  .bm-item {
+    font-size: 3vh;
+    .fas {
+      font-size: 40px;
+    }
   }
 }
