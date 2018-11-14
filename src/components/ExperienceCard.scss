@@ -40,7 +40,7 @@
     }
 }
 
-@media (min-width: 499px) {
+@media (min-width: 799px) {
     .card-experience {
         .card-body {
             div {
@@ -52,13 +52,9 @@
                     flex-flow: row;
                     align-items: center;
                     .logo {
-                        width: auto;
-                        height: auto;
-                        max-width: 250px;
                         max-height: 7vw;
                     }
                     .card-title {
-                        font-weight: bold;
                         font-size: 1.8vw;
                     }
                 }
@@ -71,6 +67,33 @@
             }
             .card-text {
                 font-size: 1.5vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 499px) and (max-width: 799px) {
+    .card-experience {
+        .card-body {
+            div {
+                justify-content: start;
+                .title-container {
+                    .logo {
+                        max-height: 12vw;
+                    }
+                    .card-title {
+                        font-size: 2.5vw;
+                    }
+                }
+                .card-title {
+                    font-size: 2vw;
+                }
+            }
+            .card-subtitle {
+                font-size: 2vw;
+            }
+            .card-text {
+                font-size: 2vw;
             }
         }
     }
