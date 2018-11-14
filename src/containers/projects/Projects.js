@@ -3,7 +3,8 @@ import './Projects.scss';
 import ProjectCard from '../../components/ProjectCard';
 import COFFEEPOT from '../../assets/coffeePot.png'
 import NAMIBIA from '../../assets/namibia.png';
-import PLACEHOLDER from '../../assets/placeholder.png'
+import PLACEHOLDER1 from '../../assets/placeholder1.png'
+import PLACEHOLDER2 from '../../assets/placeholder2.png'
 
 class Projects extends Component {
     state = {
@@ -50,7 +51,7 @@ class Projects extends Component {
                     + 'The main reason I started this project was through my experiences as a club leader, and my interaction with other students who find it difficult to join clubs even with the given resources.  '
                     + 'My overall goal for this application is to give students and club leaders an easier and much more efficient way to connect  ',
                 isHovering: false,
-                image: PLACEHOLDER,
+                image: PLACEHOLDER1,
                 showModal: false,
             },
             {
@@ -73,7 +74,7 @@ class Projects extends Component {
                     + 'The website was developed with HTML, CSS, JavaScript, and PHP.  ' 
                     + 'Currently, You are looking at version two of this project, which is developed entirely in React.  ',
                 isHovering: false,
-                image: PLACEHOLDER,
+                image: PLACEHOLDER2,
                 showModal: false
             },
             {
