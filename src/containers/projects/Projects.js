@@ -40,7 +40,7 @@ class Projects extends Component {
                     'JS',
                     'Firebase'
                 ],
-                year: {
+                date: {
                     start: 2017,
                     end: 'Current',
                 },
@@ -49,7 +49,7 @@ class Projects extends Component {
                     + 'This project started off as a final assignemnt for my Mobile App Development course, and I decided to continue development of this application after the course.  '
                     + 'I use this project to consistently improve my skills in developing in React Native and Redux.  ' 
                     + 'The main reason I started this project was through my experiences as a club leader, and my interaction with other students who find it difficult to join clubs even with the given resources.  '
-                    + 'My overall goal for this application is to give students and club leaders an easier and much more efficient way to connect  ',
+                    + 'My overall goal for this application is to give students and club leaders an easier and much more efficient way to connect.',
                 isHovering: false,
                 image: PLACEHOLDER1,
                 showModal: false,
@@ -63,14 +63,14 @@ class Projects extends Component {
                     'PHP',
                     'JS',
                 ],
-                year: {
+                date: {
                     start: 2016,
                     end: 2017,
                 },
                 description: 
                     'Website Portfolio V1 is the first independet project I decided to pursue after a month long trip working in Namibia.  '
                     + 'The point of this project was to challenge myself to independently learn new languages and frameworks.  '
-                    + 'In this project, I used Bootstrap to achieve the responsive behavior, and also created multiple "flat art" graphics to accompany the minimalist look.  ' 
+                    + 'In this project, I used Bootstrap to achieve the responsive behavior, and I also created multiple "flat art" graphics to accompany the minimalist look.  ' 
                     + 'The website was developed with HTML, CSS, JavaScript, and PHP.  ' 
                     + 'Currently, You are looking at version two of this project, which is developed entirely in React.  ',
                 isHovering: false,
@@ -80,7 +80,7 @@ class Projects extends Component {
             {
                 name: 'Namibia Action Team Project',
                 madeWith: null,
-                year: {
+                date: {
                     start: 2016,
                     end: null,
                 },

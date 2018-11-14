@@ -5,13 +5,18 @@ const modal = (props) => {
     let modalId = props.project.name.replace(/\s/g,'');
 
     let badges = null;
-
     if (props.project.madeWith) {
         badges = props.project.madeWith.map((skill, index) => {
             return (<span className="badge badge-secondary" key={index}>{skill}</span>);
         })
     }
     
+    let dates = null;
+    if (props.project.date.end) {
+        dates = <p className="dates">{props.project.date.start} - {props.project.date.end}</p>
+    } else {
+        dates = <p className="dates">{props.project.date.start}</p>
+    }
 
     return (
         <div className="modal fade" id={modalId}>
@@ -28,6 +33,7 @@ const modal = (props) => {
                         <div className="badge-container">
                             {badges}
                         </div>
+                        {dates}
                         <p>{props.project.description}</p>
                     </div>
                 </div>
