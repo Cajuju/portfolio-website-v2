@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/redux.59c46753.png"
   },
   {
-    "revision": "e9537141ae491cf596ca",
-    "url": "/portfolio-website-v2/static/css/main.431a6140.chunk.css"
+    "revision": "4e7413ff8fb112b97fdd",
+    "url": "/portfolio-website-v2/static/css/main.e5381ce4.chunk.css"
   },
   {
-    "revision": "bba6686449f2cb056a70",
-    "url": "/portfolio-website-v2/static/js/1.bba66864.chunk.js"
+    "revision": "83d317fb219ae36008e8",
+    "url": "/portfolio-website-v2/static/js/1.83d317fb.chunk.js"
   },
   {
     "revision": "47b92716dc7aea6122ae",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/resume-brian-cajulis.3fe8ba9a.pdf"
   },
   {
-    "revision": "cb17601da9c698d9399c13ccf16d259d",
-    "url": "/portfolio-website-v2/static/media/coffeePot.cb17601d.png"
+    "revision": "471bb22cdbb0ec4b4c2a6415d597b12b",
+    "url": "/portfolio-website-v2/static/media/coffeePot.471bb22c.png"
   },
   {
-    "revision": "ed3c89f33b997d68ca6f2d16422bd414",
-    "url": "/portfolio-website-v2/static/media/namibia.ed3c89f3.png"
+    "revision": "58c0ad2336f01ab4bc6a1864c5f0dc31",
+    "url": "/portfolio-website-v2/static/media/namibia-flag.58c0ad23.png"
   },
   {
     "revision": "c5414bb5001878a984fe09fec25b0620",
@@ -44,8 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/react-native.61346419.png"
   },
   {
-    "revision": "e9537141ae491cf596ca",
-    "url": "/portfolio-website-v2/static/js/main.e9537141.chunk.js"
+    "revision": "0a5dcb21c73d9b6978d28969ce1eb68a",
+    "url": "/portfolio-website-v2/static/media/bootstrap.0a5dcb21.png"
+  },
+  {
+    "revision": "4e7413ff8fb112b97fdd",
+    "url": "/portfolio-website-v2/static/js/main.4e7413ff.chunk.js"
   },
   {
     "revision": "7bde69fde9003c19927781feb2a3a74f",
@@ -72,19 +76,23 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/sass.669c0c0e.png"
   },
   {
-    "revision": "d1a0bed2de598c89bb094a71ac0f2cd4",
-    "url": "/portfolio-website-v2/static/media/gimp.d1a0bed2.png"
-  },
-  {
     "revision": "e956ba181b27f0e0f44a92ca0ec4542b",
     "url": "/portfolio-website-v2/static/media/lucidchart.e956ba18.png"
+  },
+  {
+    "revision": "f615b0ad334a70572a633456dbcc9b56",
+    "url": "/portfolio-website-v2/static/media/invision.f615b0ad.png"
+  },
+  {
+    "revision": "d1a0bed2de598c89bb094a71ac0f2cd4",
+    "url": "/portfolio-website-v2/static/media/gimp.d1a0bed2.png"
   },
   {
     "revision": "ba5a41fc042a4c62783f7d4fa3008f91",
     "url": "/portfolio-website-v2/static/media/about-background.ba5a41fc.jpg"
   },
   {
-    "revision": "ff80b7a7ef72dbb18626b82e436a2cc7",
+    "revision": "9b010bfe331403e864725ddb534ba0f4",
     "url": "/portfolio-website-v2/index.html"
   }
 ];
