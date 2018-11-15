@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Projects.scss';
 import ProjectCard from '../../components/ProjectCard';
-import COFFEEPOT from '../../assets/coffeePot.png'
-import NAMIBIA from '../../assets/namibia-flag.png';
-import PLACEHOLDER1 from '../../assets/placeholder1.png'
-import PLACEHOLDER2 from '../../assets/placeholder2.png'
+import COFFEEPOT from '../../assets/images/coffeePot.png'
+import NAMIBIA from '../../assets/images/namibia-flag.png';
+import PLACEHOLDER1 from '../../assets/images/placeholder1.png'
+import PLACEHOLDER2 from '../../assets/images/placeholder2.png'
 
 class Projects extends Component {
     state = {
