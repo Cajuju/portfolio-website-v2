@@ -33,7 +33,7 @@ class Intro extends Component {
                     </button>
 
                     <button className="btn" onClick={() => this.onIconClickHandler('resume')}>
-                        <i class="fas fa-file-pdf"></i>
+                        <i className="fas fa-file-pdf"></i>
                     </button>
                 </div>
             </AnimatedGradientBG>
