@@ -16,6 +16,21 @@
         justify-content: space-evenly;
         background-color: rgba(0,0,0,0.5);
         // transition: .5s ease;
+        .btn-secondary {
+            width: 35vw;
+            height: 10vw;
+            border-radius: 10px;
+            opacity: 1;
+            border-color: white;
+            background-color: rgba(246, 246, 246, 0.411);
+            font-size: 4vw;
+            font-weight: bold;
+        }
+    
+        .btn-secondary:hover {
+            background-color: rgba(246, 246, 246, 0.486);
+            cursor: pointer;
+        }
     }
 
     .card-title {
@@ -26,19 +41,7 @@
         font-size: 4vw;
     }
 
-    .btn-secondary {
-        width: 30vw;
-        height: 10vw;
-        border-radius: 10px;
-        opacity: 1;
-        border-color: white;
-        background-color: rgba(246, 246, 246, 0.267)
-    }
-
-    .btn-secondary:hover {
-        background-color: rgba(246, 246, 246, 0.486);
-        cursor: pointer;
-    }
+    
 }
 
 @media (min-width: 499px) {
@@ -53,10 +56,12 @@
             font-size: 2vw;
         }
 
-        .btn-secondary {
-           font-size: 1.5vw;
-           width: 15vw;
-           height: 5vw;
+        .card-img-overlay {
+            .btn-secondary {
+                width: 15vw;
+                height: 5vw;
+                font-size: 2vw;
+            }
         }
     }
 }
