@@ -6,6 +6,7 @@ Hello! Welcome to my portfolio website.  I developed this website using React, B
 ## Wireframing
 
 [# Screenshots](#screenshots) - Wireframe Overview
+
 [# Conclusion](#conclusion) - Final Thoughts
 
 Before proceeding to develop a project, I always like to get the basic layout of what it will look like.  The platform I used to create these wireframes is [Lucidchard](https://www.lucidchart.com/).
