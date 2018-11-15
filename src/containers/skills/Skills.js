@@ -3,6 +3,7 @@ import './Skills.scss';
 import SkillCard from '../../components/SkillCard';
 import REACT from '../../assets/react.png';
 import REACTNATIVE from '../../assets/react-native.png';
+import BOOTSTRAP from '../../assets/bootstrap.png';
 import REDUX from '../../assets/redux.png';
 import LARAVEL from '../../assets/laravel.png';
 import JAVA from '../../assets/java.png';
@@ -12,11 +13,12 @@ import HTML from '../../assets/html.png';
 import CSS3 from '../../assets/css.png';
 import SASS from '../../assets/sass.png';
 import GIT from '../../assets/git.png';
-import GIMP from '../../assets/gimp.png';
 import EXPO from '../../assets/expo.png';
 import SLACK from '../../assets/slack.png';
 import TRELLO from '../../assets/trello.png';
 import LUCIDCHART from '../../assets/lucidchart.png';
+import INVISION from '../../assets/invision.png';
+import GIMP from '../../assets/gimp.png';
 
 class Skills extends Component {
     state = {
@@ -26,6 +28,7 @@ class Skills extends Component {
                 items: [
                     { name: 'React', logo: REACT },
                     { name: 'React Native', logo: REACTNATIVE },
+                    { name: 'Bootstrap', logo: BOOTSTRAP },
                     { name: 'Redux', logo: REDUX },
                     { name: 'Laravel', logo: LARAVEL },
                 ]
@@ -42,13 +45,14 @@ class Skills extends Component {
                 ]
             },
             {
-                category: 'Tools',
+                category: 'Tools & Platforms',
                 items: [
                     { name: 'Git', logo: GIT },
                     { name: 'Expo', logo: EXPO },
                     { name: 'Slack', logo: SLACK },
                     { name: 'Trello', logo: TRELLO },
                     { name: 'Lucidchart', logo: LUCIDCHART },
+                    { name: 'InVision', logo: INVISION },
                     { name: 'Gimp 2', logo: GIMP },
                 ]
             }

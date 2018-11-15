@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Projects.scss';
 import ProjectCard from '../../components/ProjectCard';
 import COFFEEPOT from '../../assets/coffeePot.png'
-import NAMIBIA from '../../assets/namibia.png';
+import NAMIBIA from '../../assets/namibia-flag.png';
 import PLACEHOLDER1 from '../../assets/placeholder1.png'
 import PLACEHOLDER2 from '../../assets/placeholder2.png'
 
@@ -93,7 +93,8 @@ class Projects extends Component {
                     + 'My team and I created relationships, formed partnerships, and gained full support from various doctors and many influential people of Namibia.  '
                     + 'Every day of the trip exercised my ability to think clearly in many situations that required me to be out of my comfort zone.  ',
             },
-        ]
+        ],
+        overlay: true
     }
 
     mouseEnterHandler = (index) => {
@@ -108,6 +109,10 @@ class Projects extends Component {
         this.setState(updatedState);
     }
 
+    tapHandler = () => {
+        this.setState({ overlay: !this.state.overlay });
+    }
+
     render () {
         const projectCards = this.state.projects.map((project, index) => {
             return (
@@ -116,6 +121,8 @@ class Projects extends Component {
                     mouseEnter={() => this.mouseEnterHandler(index)}
                     mouseLeave={() => this.mouseLeaveHandler(index)}
                     project={project}
+                    overlay={this.state.overlay}
+                    onTap={() => this.tapHandler()}
                 />
             );
         })
