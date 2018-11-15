@@ -20,6 +20,7 @@
             width: 35vw;
             height: 10vw;
             border-radius: 10px;
+            border-width: 1.5px;
             opacity: 1;
             border-color: white;
             background-color: rgba(246, 246, 246, 0.411);
@@ -28,7 +29,7 @@
         }
     
         .btn-secondary:hover {
-            background-color: rgba(246, 246, 246, 0.486);
+            background-color: rgba(173, 173, 173, 0.788);
             cursor: pointer;
         }
     }
