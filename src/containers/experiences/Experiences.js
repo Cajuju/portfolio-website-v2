@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Experiences.scss';
 import ExperienceCard from '../../components/ExperienceCard';
-import APU from '../../assets/apu.png';
-import ENDORSIFY from '../../assets/endorsify.png';
+import APU from '../../assets/images/apu.png';
+import ENDORSIFY from '../../assets/images/endorsify.png';
 
 class Experiences extends Component {
     state = {

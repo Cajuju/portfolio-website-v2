@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PROFILE from '../../assets/profile.png';
-import RESUME from '../../assets/resume-brian-cajulis.pdf';
+import PROFILE from '../../assets/images/profile.png';
+import RESUME from '../../assets/documents/resume-brian-cajulis.pdf';
 import './Intro.scss';
 import AnimatedGradientBG from '../../components/ui/animatedGradient/AnimatedGradientBG';
 
