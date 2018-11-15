@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import './Skills.scss';
 import SkillCard from '../../components/SkillCard';
-import REACT from '../../assets/react.png';
-import REACTNATIVE from '../../assets/react-native.png';
-import BOOTSTRAP from '../../assets/bootstrap.png';
-import REDUX from '../../assets/redux.png';
-import LARAVEL from '../../assets/laravel.png';
-import JAVA from '../../assets/java.png';
-import JAVASCRIPT from '../../assets/javascript.png';
-import ECMA from '../../assets/ecmascript.png';
-import HTML from '../../assets/html.png';
-import CSS3 from '../../assets/css.png';
-import SASS from '../../assets/sass.png';
-import GIT from '../../assets/git.png';
-import EXPO from '../../assets/expo.png';
-import SLACK from '../../assets/slack.png';
-import TRELLO from '../../assets/trello.png';
-import LUCIDCHART from '../../assets/lucidchart.png';
-import INVISION from '../../assets/invision.png';
-import GIMP from '../../assets/gimp.png';
+import REACT from '../../assets/images/react.png';
+import REACTNATIVE from '../../assets/images/react-native.png';
+import BOOTSTRAP from '../../assets/images/bootstrap.png';
+import REDUX from '../../assets/images/redux.png';
+import LARAVEL from '../../assets/images/laravel.png';
+import JAVA from '../../assets/images/java.png';
+import JAVASCRIPT from '../../assets/images/javascript.png';
+import ECMA from '../../assets/images/ecmascript.png';
+import HTML from '../../assets/images/html.png';
+import CSS3 from '../../assets/images/css.png';
+import SASS from '../../assets/images/sass.png';
+import GIT from '../../assets/images/git.png';
+import EXPO from '../../assets/images/expo.png';
+import SLACK from '../../assets/images/slack.png';
+import TRELLO from '../../assets/images/trello.png';
+import LUCIDCHART from '../../assets/images/lucidchart.png';
+import INVISION from '../../assets/images/invision.png';
+import GIMP from '../../assets/images/gimp.png';
 
 class Skills extends Component {
     state = {
