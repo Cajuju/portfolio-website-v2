@@ -16,7 +16,8 @@ class Projects extends Component {
                     'Redux',
                     'JavaScript',
                     'Firebase',
-                    'Google APIs'
+                    'Google Places API',
+                    'Google Maps Direction API'
                 ],
                 date: {
                     start: 2017,
