@@ -14,6 +14,7 @@ import CSS3 from '../../assets/images/css.png';
 import SASS from '../../assets/images/sass.png';
 import GIT from '../../assets/images/git.png';
 import EXPO from '../../assets/images/expo.png';
+import FIREBASE from '../../assets/images/firebase.png';
 import SLACK from '../../assets/images/slack.png';
 import TRELLO from '../../assets/images/trello.png';
 import LUCIDCHART from '../../assets/images/lucidchart.png';
@@ -49,10 +50,11 @@ class Skills extends Component {
                 items: [
                     { name: 'Git', logo: GIT },
                     { name: 'Expo', logo: EXPO },
+                    { name: 'Firebase', logo: FIREBASE },
+                    { name: 'InVision', logo: INVISION },
+                    { name: 'Lucidchart', logo: LUCIDCHART },
                     { name: 'Slack', logo: SLACK },
                     { name: 'Trello', logo: TRELLO },
-                    { name: 'Lucidchart', logo: LUCIDCHART },
-                    { name: 'InVision', logo: INVISION },
                     { name: 'Gimp 2', logo: GIMP },
                 ]
             }
