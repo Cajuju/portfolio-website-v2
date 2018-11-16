@@ -46,6 +46,16 @@
     padding:  0px 15px;
 }
 
+.link {
+    font-weight: bold;
+    color: #3498db;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link:hover {
+    color: #1174b6;
+}
+
 @media(min-width: 499px) {
     .modal-lg {
         width: 100%;
@@ -60,15 +70,6 @@
             grid-column-end: 3;
             font-size: 1.7vw;
             padding: 0px 25px;
-        }
-        .link {
-            font-weight: bold;
-            color: #3498db;
-            text-decoration: underline;
-            cursor: pointer;
-        }
-        .link:hover {
-            color: #1174b6;
         }
     }
     
