@@ -8,21 +8,26 @@
         border-radius: 0;
     }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 30% 30% 30% 10%;
+        align-items: center;
+    }
+
     .card-img-overlay {
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
         background-color: rgba(0, 0, 0, 0.5);
-        transition: .5s ease;
-        -webkit-transition: .5s ease;
         .card-title {
-            font-size: 10vw;
+            font-size: 7vw;
         }
 
         .badge {
             font-size: 3.5vw;
-            margin: 3px 5px;
+            margin: 0px 5px;
         }
         
         .card-text {
@@ -53,8 +58,12 @@
         width: 50%;
 
         .card-img-overlay {
-            background-color: rgba(0, 0, 0, 0);
-
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: 35% 10% 20% 40%;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5% 7%;
             .card-title {
                 font-size: 5vw;
             }
@@ -71,7 +80,7 @@
             .btn-secondary {
                 width: 15vw;
                 height: 5vw;
-                font-size: 2vw;
+                font-size: 1.5vw;
             }
         }
 

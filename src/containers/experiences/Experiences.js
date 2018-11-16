@@ -12,8 +12,8 @@ class Experiences extends Component {
                 company: 'Endorsify',
                 position: 'Software Engineer Intern',
                 dates: {
-                    start: '07/2018',
-                    end: '10/2018'
+                    start: 'July 2018',
+                    end: 'October 2018'
                 },
                 location: 'Los Angeles, CA',
                 details: [
@@ -29,8 +29,8 @@ class Experiences extends Component {
                 company: 'Azusa Pacific University',
                 position: 'Computer Science Lab Technician',
                 dates: {
-                    start: '09/2017',
-                    end: '05/2018'
+                    start: 'September 2017',
+                    end: 'May 2018'
                 },
                 location: 'Azusa, CA',
                 details: [
@@ -45,8 +45,8 @@ class Experiences extends Component {
                 company: 'Azusa Pacific University',
                 position: 'CS Action Team Member',
                 dates: {
-                    start: '05/2016',
-                    end: '06/2016'
+                    start: 'May 2016',
+                    end: 'June 2016'
                 },
                 location: 'Namibia, South Africa',
                 details: [

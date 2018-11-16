@@ -23,16 +23,14 @@ class Intro extends Component {
                     <h1 className='font-weight-bold'>Brian Robert Cajulis</h1>
                     <h1>Web/Mobile Developer</h1>
                 </div>
-                <div className='btnContainer'>
-                    <button className="btn btn-circle" onClick={() => this.onIconClickHandler('linkedin')}>
+                <div className='grid-container'>
+                    <button className="btn" onClick={() => this.onIconClickHandler('linkedin')}>
                         <i className="fab fa-linkedin-in"></i>
                     </button>
-
-                    <button className="btn" onClick={() => this.onIconClickHandler('github')}>
+                    <button className="btn grid-item" onClick={() => this.onIconClickHandler('github')}>
                         <i className="fab fa-github"></i>
                     </button>
-
-                    <button className="btn" onClick={() => this.onIconClickHandler('resume')}>
+                    <button className="btn grid-item" onClick={() => this.onIconClickHandler('resume')}>
                         <i className="fas fa-file-pdf"></i>
                     </button>
                 </div>

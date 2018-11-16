@@ -34,8 +34,8 @@ const modal = (props) => {
                             {badges}
                         </div>
                         {dates}
-                        <p className="description">{props.project.description}</p>
                     </div>
+                    <p className="description">{props.project.description}</p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 .modal {
     font-family: 'Andika', sans-serif;
+    padding: 0 !important;
 }
 
 .modal-header {
@@ -38,27 +39,53 @@
         font-size: 4vw;
         margin-bottom: 3px;
     }
+}
 
-    .description {
-        font-size: 3.5vw;
-        padding:  0px 10px;
-    }
+.description {
+    font-size: 4vw;
+    padding:  0px 15px;
 }
 
 @media(min-width: 499px) {
     .modal-lg {
-        width: 60%;
+        width: 100%;
+        
+    }
+
+    .modal-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        .description {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            font-size: 1.7vw;
+            padding: 0px 25px;
+        }
     }
     
     .modal-header {
         button {
-            font-size: 6.5vw;
+            font-size: 4vw;
+            position: absolute;
+            left: 92.5%;
+            bottom: 93%;
+            color: black;
+            opacity: 1;
+            z-index: 2;
+        }
+
+        button:hover {
+            color: gray;
         }
     }
 
     .modal-body {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
         .modal-title {
-            font-size: 3vw;
+            text-align: center;
+            font-size: 2.5vw;
         }
 
         .badge-container {
@@ -69,12 +96,7 @@
         }
 
         .dates {
-            font-size: 2.5vw;
-        }
-
-        .description {
             font-size: 2vw;
-            padding: 0px 20px;
         }
     }
 }

@@ -24,13 +24,11 @@ const projectCard = (props) => {
     if (props.project.isHovering) {
         cardOverlay = (
             <div className="card-img-overlay">
-                <div>
-                    <h4 className="card-title">{props.project.name}</h4>
-                    <div className="badge-container">
-                        {badges}
-                    </div>
-                    {dates}
+                <h4 className="card-title">{props.project.name}</h4>
+                <div className="badge-container">
+                    {badges}
                 </div>
+                {dates}
                 <div>
                     <button type="button" className="btn-secondary" data-toggle="modal" data-target={dataTarget}>Learn More</button>
                 </div>
