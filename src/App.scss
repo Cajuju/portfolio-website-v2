@@ -1,3 +1,7 @@
+:not(#about, #project, #experiences, #skills) {
+  display: none;
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -59,7 +63,7 @@
   .bm-item {
     font-size: 3vh;
     .fas {
-      font-size: 40px;
+      font-size: 4vh;
     }
   }
 }

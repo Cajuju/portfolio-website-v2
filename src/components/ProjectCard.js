@@ -3,9 +3,11 @@ import './ProjectCard.scss';
 import Modal from './Modal';
 
 const projectCard = (props) => {
-    let developedWith = null;
+    let badges = null;
     if (props.project.madeWith) {
-        developedWith = props.project.madeWith.join('+');
+        badges = props.project.madeWith.map((skill, index) => {
+            return (<span className="badge badge-secondary" key={index}>{skill}</span>);
+        })
     }
 
     let cardOverlay = null;
@@ -24,7 +26,9 @@ const projectCard = (props) => {
             <div className="card-img-overlay">
                 <div>
                     <h4 className="card-title">{props.project.name}</h4>
-                    <p className="card-text">{developedWith}</p>
+                    <div className="badge-container">
+                        {badges}
+                    </div>
                     {dates}
                 </div>
                 <div>

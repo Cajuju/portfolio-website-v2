@@ -14,11 +14,11 @@ import Skills from './containers/skills/Skills';
 class App extends Component {
   render() {
     return (
-      <div id="outer-container">
+      <div id="outer-container" className="app">
         <Menu
           pageWrapId={'page-wrap'}
           outerContainerId={'outer-container'}
-          right width={300}
+          right width={250}
           customBurgerIcon={<MenuBtn />}
           
         >
