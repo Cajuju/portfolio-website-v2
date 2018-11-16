@@ -30,7 +30,9 @@ class Projects extends Component {
                     + 'The overall goal of this application is to improve each user\'s overall quality of life.  ',
                 isHovering: false,
                 image: COFFEEPOT,
-                showModal: false
+                showModal: false,
+                website: null,
+                code: 'https://github.com/b-arnold/coffeepot'
             },
             {
                 name: 'My Club',
@@ -53,6 +55,8 @@ class Projects extends Component {
                 isHovering: false,
                 image: PLACEHOLDER1,
                 showModal: false,
+                website: null,
+                code: null
             },
             {
                 name: 'Website Portfolio V1',
@@ -75,7 +79,9 @@ class Projects extends Component {
                     + 'Currently, You are looking at version two of this project, which is developed entirely in React.  ',
                 isHovering: false,
                 image: PLACEHOLDER2,
-                showModal: false
+                showModal: false,
+                website: null,
+                code: 'https://github.com/briancajulis/portfolio-website-v1'
             },
             {
                 name: 'Namibia Action Team Project',
@@ -92,6 +98,8 @@ class Projects extends Component {
                     + 'During my time in Namibia, I worked with students and professors at NUST (Namibia University of Science and Technology) to create and set a foundation for a health informatics system for public and private hospitals to use.  ' 
                     + 'My team and I created relationships, formed partnerships, and gained full support from various doctors and many influential people of Namibia.  '
                     + 'Every day of the trip exercised my ability to think clearly in many situations that required me to be out of my comfort zone.  ',
+                website: 'http://nhiproject.org/',
+                code: null
             },
         ],
         overlay: true

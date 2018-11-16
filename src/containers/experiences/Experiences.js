@@ -50,8 +50,8 @@ class Experiences extends Component {
                 },
                 location: 'Namibia, South Africa',
                 details: [
-                    'Interviewed target market to create use cases to specify software features',
-                    'Participated in meetings to plan and to discuss the implementation of each feature',
+                    'Interviewed doctors from public and private hospitals to create use cases to specify software features',
+                    'Participated in daily meetings to plan and to discuss the implementation of each feature',
                     'Independently learned new frameworks and programming languages needed for development',
                 ]
             }

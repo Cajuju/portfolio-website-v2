@@ -61,6 +61,15 @@
             font-size: 1.7vw;
             padding: 0px 25px;
         }
+        .link {
+            font-weight: bold;
+            color: #3498db;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .link:hover {
+            color: #1174b6;
+        }
     }
     
     .modal-header {
