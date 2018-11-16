@@ -3,7 +3,6 @@
     text-align: center;
     width: 100%;
     border: 0;
-    font-family: 'Andika', sans-serif;
     .card-img-top {
         width: 100%;
         border-radius: 0;
@@ -14,8 +13,22 @@
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
-        background-color: rgba(0,0,0,0.5);
-        // transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: .5s ease;
+        -webkit-transition: .5s ease;
+        .card-title {
+            font-size: 10vw;
+        }
+
+        .badge {
+            font-size: 3.5vw;
+            margin: 3px 5px;
+        }
+        
+        .card-text {
+            font-size: 5vw;
+        }
+
         .btn-secondary {
             width: 35vw;
             height: 10vw;
@@ -23,7 +36,7 @@
             border-width: 1.5px;
             opacity: 1;
             border-color: white;
-            background-color: rgba(246, 246, 246, 0.411);
+            background-color: rgba(246, 246, 246, 0.24);
             font-size: 4vw;
             font-weight: bold;
         }
@@ -32,37 +45,38 @@
             background-color: rgba(173, 173, 173, 0.788);
             cursor: pointer;
         }
-    }
-
-    .card-title {
-        font-size: 10vw;
-    }
-    
-    .card-text {
-        font-size: 4vw;
-    }
-
-    
+    }  
 }
 
 @media (min-width: 499px) {
     .card {
         width: 50%;
 
-        .card-title {
-            font-size: 4.5vw;
-        }
-
-        .card-text {
-            font-size: 1.5vw;
-        }
-
         .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0);
+
+            .card-title {
+                font-size: 5vw;
+            }
+
+            .badge {
+                font-size: 1.55vw;
+                margin: 3px;
+            }
+    
+            .card-text {
+                font-size: 2.5vw;
+            }
+
             .btn-secondary {
                 width: 15vw;
                 height: 5vw;
                 font-size: 2vw;
             }
+        }
+
+        .card-img-overlay:hover {
+            background-color: rgba(0, 0, 0, .5);
         }
     }
 }

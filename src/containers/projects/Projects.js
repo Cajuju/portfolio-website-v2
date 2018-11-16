@@ -14,7 +14,7 @@ class Projects extends Component {
                 madeWith: [
                     'React Native',
                     'Redux',
-                    'Javascript',
+                    'JavaScript',
                     'Firebase',
                     'Google APIs'
                 ],
@@ -37,7 +37,7 @@ class Projects extends Component {
                 madeWith: [
                     'React Native',
                     'Redux',
-                    'JS',
+                    'JavaScript',
                     'Firebase'
                 ],
                 date: {
@@ -61,7 +61,7 @@ class Projects extends Component {
                     'CSS',
                     'BootStrap',
                     'PHP',
-                    'JS',
+                    'JavaScript',
                 ],
                 date: {
                     start: 2016,
