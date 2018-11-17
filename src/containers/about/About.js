@@ -12,7 +12,7 @@ class About extends Component {
                 Whilst there, he assisted students and professors from <label onClick={() => window.open('http://www.nust.na/', '_blank')} style={{textDecoration: 'underline'}}>Namibia University of Science and Technology</label> to create a health informatics system for public and private hospitals.
                 His experiences in Namibia concreted his passion for software development where then after he dedicated time between classes to challenge and to better his understanding of web and mobile development.
                 </p>
-                <p>Brian is currently searching for job opportunities as a front end developer for web and/or mobile applications. Email me at <a href="mailto:brianrobertcajulis@yahoo.com" target="_top"> brianrobertcajulis@yahoo.com</a> to connect.</p>
+                <p>Brian is currently searching for job opportunities as a front end developer for web and/or mobile applications. Email him at <a href="mailto:brianrobertcajulis@yahoo.com" target="_top"> brianrobertcajulis@yahoo.com</a> to connect.</p>
             </div>
         );
     }
