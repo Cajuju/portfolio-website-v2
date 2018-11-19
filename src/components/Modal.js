@@ -1,5 +1,6 @@
 import React from 'react';
 import './Modal.scss';
+import VideoPlayer from './VideoPlayer';
 
 const modal = (props) => {
     let modalId = props.project.name.replace(/\s/g,'');
@@ -38,6 +39,7 @@ const modal = (props) => {
                     <p className="description">{props.project.description}</p>
                     { props.project.website ? <p className="description">For more information, <label className="link" onClick={() => window.open(props.project.website, '_blank')}>Click Here</label></p> : null }
                     { props.project.code ? <p className="description">To view codebase, <label className="link" onClick={() => window.open(props.project.code, '_blank')}>Click Here</label></p> : null }
+                    { props.project.demo ? <VideoPlayer source={props.project.demo} /> : null }
                 </div>
             </div>
         </div>

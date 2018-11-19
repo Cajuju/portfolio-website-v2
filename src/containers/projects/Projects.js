@@ -33,7 +33,8 @@ class Projects extends Component {
                 image: COFFEEPOT,
                 showModal: false,
                 website: null,
-                code: 'https://github.com/b-arnold/coffeepot'
+                code: 'https://github.com/b-arnold/coffeepot',
+                demo: 'https://www.youtube.com/watch?v=Yy9iN9QUODg'
             },
             {
                 name: 'My Club',
@@ -57,7 +58,8 @@ class Projects extends Component {
                 image: PLACEHOLDER1,
                 showModal: false,
                 website: null,
-                code: null
+                code: null,
+                demo: null
             },
             {
                 name: 'Website Portfolio V1',
@@ -82,7 +84,8 @@ class Projects extends Component {
                 image: PLACEHOLDER2,
                 showModal: false,
                 website: null,
-                code: 'https://github.com/briancajulis/portfolio-website-v1'
+                code: 'https://github.com/briancajulis/portfolio-website-v1',
+                demo: null,
             },
             {
                 name: 'Namibia Action Team Project',
@@ -100,7 +103,8 @@ class Projects extends Component {
                     + 'My team and I created relationships, formed partnerships, and gained full support from various doctors and many influential people of Namibia.  '
                     + 'Every day of the trip exercised my ability to think clearly in many situations that required me to be out of my comfort zone.  ',
                 website: 'http://nhiproject.org/',
-                code: null
+                code: null,
+                demo: null,
             },
         ],
         overlay: true

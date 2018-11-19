@@ -1,0 +1,15 @@
+.player-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 65vw;
+}
+  
+.react-player {
+  padding: 20px;
+}
+
+@media (min-width: 499px) {
+  .player-wrapper {
+    height: 35vw;
+  }
+}
