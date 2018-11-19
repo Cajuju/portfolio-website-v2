@@ -62,7 +62,7 @@
 @media(min-width: 499px) {
     .modal-content {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 40% auto;
         .description {
             grid-column-start: 1;
             grid-column-end: 3;
@@ -72,6 +72,11 @@
     }
 
     .modal-header {
+        .img-thumbnail {
+            width: 100%;
+            height: 100%;
+        }
+
         .close {
             display: none;
         }
@@ -80,7 +85,10 @@
     .modal-body {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-template-rows: 10% auto;
+        grid-row-gap: 5px;
+        padding-top: 0;
+        
         .close {
             font-size: 4vw;
             text-align: right;
@@ -88,8 +96,6 @@
             opacity: 1;
             z-index: 2;
             display: initial;
-            position: absolute;
-            left: 91%;
         }
 
         .close:hover {

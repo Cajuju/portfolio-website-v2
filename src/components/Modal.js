@@ -30,9 +30,11 @@ const modal = (props) => {
                         </button>
                     </div>
                     <div className="modal-body">
-                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <div className="btn-wrapper">
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
                         <h5 className="modal-title">{props.project.name}</h5>
                         <div className="badge-container">
                             {badges}
