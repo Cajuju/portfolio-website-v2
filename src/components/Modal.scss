@@ -12,7 +12,7 @@
         padding: 0;
         border: 0;
     }
-    button {
+    .close {
         color: white;
         font-size: 10vw;
         position: absolute;
@@ -20,6 +20,9 @@
 }
 
 .modal-body {
+    .close {
+        display: none;
+    }
     .modal-title {
         font-weight: bold;
         font-size: 5.5vw;
@@ -67,20 +70,10 @@
             padding: 0px 25px;
         }
     }
-    
-    .modal-header {
-        button {
-            font-size: 4vw;
-            position: absolute;
-            left: 92.5%;
-            bottom: 93%;
-            color: black;
-            opacity: 1;
-            z-index: 2;
-        }
 
-        button:hover {
-            color: gray;
+    .modal-header {
+        .close {
+            display: none;
         }
     }
 
@@ -88,6 +81,20 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
+        .close {
+            font-size: 4vw;
+            text-align: right;
+            color: black;
+            opacity: 1;
+            z-index: 2;
+            display: initial;
+            position: absolute;
+            left: 91%;
+        }
+
+        .close:hover {
+            color: gray;
+        }
         .modal-title {
             text-align: center;
             font-size: 2.5vw;
@@ -96,12 +103,12 @@
         .badge-container {
             text-align: center;
             .badge {
-                font-size: 1.5vw;
+                font-size: 1.1vw;
             }
         }
 
         .dates {
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
     }
 }
