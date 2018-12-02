@@ -60,14 +60,17 @@
 }
 
 @media(min-width: 499px) {
+    .modal-dialog {
+        max-width: 77%;
+    }
     .modal-content {
         display: grid;
-        grid-template-columns: 40% auto;
+        grid-template-columns: 45% auto;
         .description {
             grid-column-start: 1;
             grid-column-end: 3;
             font-size: 1.7vw;
-            padding: 0px 25px;
+            padding: 15px 25px 0px 25px;
         }
     }
 
@@ -85,8 +88,8 @@
     .modal-body {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 10% auto;
-        grid-row-gap: 5px;
+        grid-template-rows: min-content max-content max-content min-content;
+        grid-row-gap: 1.2em;
         padding-top: 0;
         
         .close {
@@ -103,18 +106,18 @@
         }
         .modal-title {
             text-align: center;
-            font-size: 2.5vw;
+            font-size: 2.7vw;
         }
 
         .badge-container {
             text-align: center;
             .badge {
-                font-size: 1.1vw;
+                font-size: 1.7vw;
             }
         }
 
         .dates {
-            font-size: 1.7vw;
+            font-size: 2vw;
         }
     }
 }
