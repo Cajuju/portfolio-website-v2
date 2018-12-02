@@ -1,6 +1,5 @@
 import React from 'react';
 import './Modal.scss';
-import VideoPlayer from './VideoPlayer';
 
 const modal = (props) => {
     let modalId = props.project.name.replace(/\s/g,'');
@@ -21,7 +20,7 @@ const modal = (props) => {
 
     return (
         <div className="modal fade" id={modalId}>
-            <div className="modal-dialog modal-dialog-centered modal-lg">
+            <div className="modal-dialog modal-dialog-centered">
                 <div className="modal-content">
                     <div className="modal-header">
                         <img className="img-thumbnail" src={props.project.image} alt={props.project.name}/>
@@ -44,7 +43,7 @@ const modal = (props) => {
                     <p className="description">{props.project.description}</p>
                     { props.project.website ? <p className="description">For more information, <label className="link" onClick={() => window.open(props.project.website, '_blank')}>Click Here</label></p> : null }
                     { props.project.code ? <p className="description">To view codebase, <label className="link" onClick={() => window.open(props.project.code, '_blank')}>Click Here</label></p> : null }
-                    { props.project.demo ? <VideoPlayer source={props.project.demo} /> : null }
+                    { props.project.demo ? <p className="description">To view demo, <label className="link" onClick={() => window.open(props.project.demo, '_blank')}>Click Here</label></p> : null }
                 </div>
             </div>
         </div>
