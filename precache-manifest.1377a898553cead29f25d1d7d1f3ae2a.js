@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/redux.59c46753.png"
   },
   {
-    "revision": "9bad4f24a337175540f0",
+    "revision": "a7ba2cd0e4ae45d24f50",
     "url": "/portfolio-website-v2/static/css/main.2f79a3b0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/profile.4c04220b.png"
   },
   {
-    "revision": "f360da3725f446d29311d24bb8f7ff0e",
-    "url": "/portfolio-website-v2/static/media/resume-brian-cajulis.f360da37.pdf"
+    "revision": "cd987af18cef6b77b450088509d17011",
+    "url": "/portfolio-website-v2/static/media/resume-brian-cajulis.cd987af1.pdf"
   },
   {
     "revision": "471bb22cdbb0ec4b4c2a6415d597b12b",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/bootstrap.0a5dcb21.png"
   },
   {
-    "revision": "9bad4f24a337175540f0",
-    "url": "/portfolio-website-v2/static/js/main.9bad4f24.chunk.js"
+    "revision": "a7ba2cd0e4ae45d24f50",
+    "url": "/portfolio-website-v2/static/js/main.a7ba2cd0.chunk.js"
   },
   {
     "revision": "7bde69fde9003c19927781feb2a3a74f",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website-v2/static/media/about-background.ba5a41fc.jpg"
   },
   {
-    "revision": "c191d576edb23835c935a39e04564bea",
+    "revision": "a9bfd0209cd157d1ce8e5f4fd8ab27c5",
     "url": "/portfolio-website-v2/index.html"
   }
 ];
