@@ -21,7 +21,7 @@ class Intro extends Component {
                 <img src={PROFILE} alt='profile_pic' className="rounded-circle image" />
                 <div className='text'>
                     <h1 className='font-weight-bold'>Brian Robert Cajulis</h1>
-                    <h1>Web/Mobile Developer</h1>
+                    <h1>Software Engineer</h1>
                 </div>
                 <div className='grid-container'>
                     <button className="btn" onClick={() => this.onIconClickHandler('linkedin')}>
